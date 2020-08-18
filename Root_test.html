@@ -58,13 +58,17 @@
 <div id="app" v-cloak>
     <div class="cap menu">
         <div class="logo frame">
-            <img style="height: 150px; position:absolute; top: 10%;" src="AnSo.jpg" alt="LOGO">
+            <img style="height: 150px; position:relative; top: 10%;" src="AnSo.jpg" alt="LOGO">
         </div>
         <div class="langs frame">
             <div id="google_translate_element"></div>
         </div>
     </div>
 	<div class="menu">
+	<div style="width:500px;
+	border-top:3px solid #9EC1D4;
+		border-bottom: solid #9EC1D4;
+	padding-left:10px">
         <div class="frame button" @click="tab = 'Главная'">Главная</div>
         <div class="frame button" @click="tab = 'Галерея'">Галерея</div>
         <div class="frame button" @click="tab = 'Эскизы'">Эскизы</div>
