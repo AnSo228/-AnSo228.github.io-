@@ -13,15 +13,18 @@
     .frame{
         display:inline-block;
         width: 50%;
+font: copperplate regular;
     }
     .cap{
-        width: 100%;
+        display:flex;
+        max-width: 100%;
+        height: auto
     }
     .logo{
         text-align: center;
 	    width: 100%;
         position: relative;
-        left: 10%;
+        left: 7%;
     }
     .langs{
         text-align: left;
@@ -30,11 +33,13 @@
         width: 300px;
     }
     .button{
-        margin: 1em;
+        margin: 2em;
         text-align: center;
         border-radius: 10px;
         background-color: rgb(255, 255, 255);
         cursor: pointer;
+	
+        font: copperplate regular;
     }
     
 
@@ -66,7 +71,7 @@
             <div id="google_translate_element"></div>
         </div>
     </div>
-    <hr size="4" color="black">
+    <hr size="5" color="black">
 	<div class="menu">
         <div class="frame button" @click="tab = 'Главная'">Главная</div>
         <div class="frame button" @click="tab = 'Галерея'">Галерея</div>
